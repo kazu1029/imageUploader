@@ -24,7 +24,7 @@ func uploadToS3(w http.ResponseWriter, r *http.Request) {
 		Region:          awsconfig.Region,
 		BucketName:      awsconfig.BucketName,
 	}
-	s3uploader.PutToS3("./temp-images", "lionimage.jpg")
+	s3uploader.PutToS3("./temp-images/", "sample1.jpg")
 }
 
 func main() {
