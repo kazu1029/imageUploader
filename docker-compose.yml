@@ -7,3 +7,8 @@ services:
       - .:/go/src/app
     ports:
       - 8080:8080
+    environment:
+      - AWS_ACCESS_KEY_ID
+      - AWS_SECRET_ACCESS_KEY
+      - AWS_DEFAULT_REGION
+      - AWS_BUCKET_NAME

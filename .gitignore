@@ -1,2 +1,3 @@
 *.swp
 temp-images
+.env
